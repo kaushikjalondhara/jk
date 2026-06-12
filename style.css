@@ -689,3 +689,130 @@ nav ul li a{
     cursor:pointer;
     font-size:22px;
 }
+@media (max-width:768px){
+
+    header{
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-center{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search-container{
+        width: 100%;
+    }
+
+    .hero{
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    .hero-content h1{
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero-img img{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .stats-left{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .brand-content{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .products{
+        gap: 20px;
+    }
+
+    .product-card{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .dress-style{
+        padding: 20px;
+        margin: 30px 15px;
+    }
+
+    .dress-style h2{
+        font-size: 30px;
+    }
+
+    .style-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .customer{
+        padding: 30px 15px;
+    }
+
+    .tital{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .tital h2{
+        font-size: 30px;
+    }
+
+    .customer-card{
+        width: 100%;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+        margin: 0 15px -50px;
+    }
+
+    .newsletter h2{
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .newsletter-form{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 100px 20px 30px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .payment-icon{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
